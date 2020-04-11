@@ -1,0 +1,21 @@
+{
+  "name": "tipe-apa",
+  "version": "0.0.1",
+  "description": "Simple JavaScript data type checker.",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development tsc --watch",
+    "build": "tsc",
+    "publish:patch": "npm patch && git push origin master && npm publish",
+    "publish:minor": "npm minor && git push origin master && npm publish",
+    "publish:major": "npm major && git push origin master && npm publish"
+  },
+  "repository": "https://github.com/rafiandria23/tipe-apa.git",
+  "author": "Adam Rafiandri",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3"
+  }
+}
