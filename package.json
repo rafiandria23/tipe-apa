@@ -1,6 +1,6 @@
 {
   "name": "tipe-apa",
-  "version": "0.2.9",
+  "version": "0.3.0",
   "description": "Simple JavaScript data type checker.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
