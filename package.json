@@ -9,9 +9,9 @@
     "clean": "rm -rf ./dist",
     "build": "tsc",
     "test": "yarn clean && tsc && jest",
-    "publish:patch": "npm patch && git push origin master && npm publish",
-    "publish:minor": "npm minor && git push origin master && npm publish",
-    "publish:major": "npm major && git push origin master && npm publish"
+    "publish:patch": "yarn build && npm version patch && git push origin master && npm publish",
+    "publish:minor": "yarn build && npm version minor && git push origin master && npm publish",
+    "publish:major": "yarn build && npm version major && git push origin master && npm publish"
   },
   "repository": "https://github.com/rafiandria23/tipe-apa.git",
   "author": "Adam Rafiandri",
