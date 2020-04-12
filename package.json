@@ -13,8 +13,7 @@
     "prepublish:minor": "yarn build && npm version minor && git push origin master",
     "prepublish:major": "yarn build && npm version major && git push origin master",
     "fix:link": "tsc && yarn link",
-    "fix:unlink": "yarn unlink && tsc && yarn link",
-    "publish": "npm login && npm publish"
+    "fix:unlink": "yarn unlink && tsc && yarn link"
   },
   "repository": "https://github.com/rafiandria23/tipe-apa.git",
   "author": "Adam Rafiandri",
