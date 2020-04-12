@@ -3,11 +3,11 @@
   "version": "0.3.0",
   "description": "Simple JavaScript data type checker.",
   "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "types": "./src/index.d.ts",
   "scripts": {
     "dev": "NODE_ENV=development tsc -p tsconfig.json --watch",
     "clean": "rm -rf ./dist",
-    "build": "tsc -p tsconfig.json",
+    "build": "yarn clean && tsc -p tsconfig.json",
     "test": "yarn clean && yarn build && jest --coverage",
     "prepublish:patch": "yarn build && npm version patch && git push origin master",
     "prepublish:minor": "yarn build && npm version minor && git push origin master",
