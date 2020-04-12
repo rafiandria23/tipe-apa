@@ -13,7 +13,12 @@ import {
   isSymbol
 } from '@/methods';
 
-export default (input: any) => {
+export interface Output {
+  type: string;
+  target?: any;
+}
+
+export default (input: any): Output | Error => {
   if (isString(input)) {
     return {
       type: 'String',

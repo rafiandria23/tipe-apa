@@ -1,8 +1,3 @@
-export interface Output {
-  nameOutput?: string;
-  booleanOutput: boolean;
-}
-
 export { default as isString } from './isString';
 export { default as isNumber } from './isNumber';
 export { default as isArray } from './isArray';
