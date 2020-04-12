@@ -18,7 +18,7 @@
   "repository": "https://github.com/rafiandria23/tipe-apa.git",
   "author": "Adam Rafiandri",
   "license": "MIT",
-  "private": false,
+  "private": true,
   "devDependencies": {
     "@types/jest": "^25.2.1",
     "jest": "^25.3.0",
