@@ -25,10 +25,9 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
+    "@types/module-alias": "^2.0.0",
+    "@types/node": "^13.11.1",
     "module-alias": "^2.2.2",
     "tslib": "^1.11.1"
-  },
-  "_moduleAliases": {
-    "@": "./dist/src"
   }
 }
