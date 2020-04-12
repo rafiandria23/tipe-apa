@@ -12,7 +12,6 @@ import {
   isDate,
   isSymbol
 } from '@/index';
-import checkType from '@/index';
 
 describe('Test All Methods', () => {
   test('isString Method - True', () => {

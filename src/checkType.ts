@@ -18,7 +18,7 @@ export interface Output {
   target?: any;
 }
 
-export default (input: any): Output | Error => {
+export default function checkType(input?: any): Output | void {
   if (isString(input)) {
     return {
       type: 'String',
@@ -79,7 +79,7 @@ export default (input: any): Output | Error => {
       type: 'Symbol',
       target: input
     };
-  } else {
-    return new Error("No input passed as argument, please provide one.");
   }
+
+  return;
 }

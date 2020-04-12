@@ -1,3 +1,3 @@
 export default (input: any) => {
-  return typeof input === 'number' || isFinite(input);
+  return typeof input === 'number' || input instanceof Number;
 };

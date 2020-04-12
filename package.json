@@ -11,7 +11,9 @@
     "test": "yarn clean && tsc && jest",
     "publish:patch": "yarn build && npm version patch && git push origin master && npm publish",
     "publish:minor": "yarn build && npm version minor && git push origin master && npm publish",
-    "publish:major": "yarn build && npm version major && git push origin master && npm publish"
+    "publish:major": "yarn build && npm version major && git push origin master && npm publish",
+    "fix:link": "tsc && yarn link",
+    "fix:unlink": "yarn unlink && tsc && yarn link"
   },
   "repository": "https://github.com/rafiandria23/tipe-apa.git",
   "author": "Adam Rafiandri",
@@ -23,5 +25,11 @@
     "ts-jest": "^25.3.1",
     "tslib": "^1.11.1",
     "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  },
+  "_moduleAliases": {
+    "@": "./dist/src"
   }
 }

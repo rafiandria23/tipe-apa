@@ -1,5 +1,4 @@
-export * from '@/methods';
-import checkType from './checkType';
+import 'module-alias/register';
 
-export { default as checkType } from './checkType';
-export default checkType;
+export * from '@/methods';
+export { default as checkType } from '@/checkType';
