@@ -80,6 +80,4 @@ export default function checkType(input?: any): Output | void {
       target: input
     };
   }
-
-  return;
 }

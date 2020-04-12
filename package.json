@@ -8,7 +8,7 @@
     "dev": "NODE_ENV=development tsc --watch",
     "clean": "rm -rf ./dist",
     "build": "tsc",
-    "test": "yarn clean && tsc && jest",
+    "test": "yarn clean && yarn build && jest --coverage",
     "publish:patch": "yarn build && npm version patch && git push origin master && npm publish",
     "publish:minor": "yarn build && npm version minor && git push origin master && npm publish",
     "publish:major": "yarn build && npm version major && git push origin master && npm publish",

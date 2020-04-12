@@ -135,7 +135,7 @@ describe('Test All Methods', () => {
   });
 
   test('isSymbol Method - True', () => {
-    const exSymbol = isSymbol(Symbol('foo'));
+    const exSymbol = isSymbol(Symbol('This is symbol!'));
     expect(exSymbol).toBe(true);
   });
 
