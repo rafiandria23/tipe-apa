@@ -11,7 +11,7 @@ import {
   isError,
   isDate,
   isSymbol
-} from '@/methods';
+} from './methods';
 
 export interface Output {
   type: string;
