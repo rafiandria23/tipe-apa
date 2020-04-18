@@ -1,4 +1,4 @@
-import { checkType } from '@/index';
+import { checkType } from '../index';
 
 describe('Check Type General Function Test', () => {
   test('Check Type -  String', () => {

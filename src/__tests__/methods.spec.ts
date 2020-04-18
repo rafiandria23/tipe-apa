@@ -11,7 +11,7 @@ import {
   isError,
   isDate,
   isSymbol
-} from '@/index';
+} from '../index';
 
 describe('Test All Methods', () => {
   test('isString Method - True', () => {
