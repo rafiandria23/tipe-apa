@@ -21,62 +21,62 @@ export interface Output {
 export default function checkType(input?: any): Output | void {
   if (isString(input)) {
     return {
-      type: 'String',
+      type: 'string',
       target: input
     };
   } else if (isNumber(input)) {
     return {
-      type: 'Number',
+      type: 'number',
       target: input
     };
   } else if (isArray(input)) {
     return {
-      type: 'Array',
+      type: 'array',
       target: input
     };
   } else if (isObject(input)) {
     return {
-      type: 'Object',
+      type: 'object',
       target: input
     };
   } else if (isFunction(input)) {
     return {
-      type: 'Function',
+      type: 'function',
       target: input
     };
   } else if (isNull(input)) {
     return {
-      type: 'Null',
+      type: 'null',
       target: input
     };
   } else if (isUndefined(input)) {
     return {
-      type: 'Undefined',
+      type: 'undefined',
       target: input
     };
   } else if (isBoolean(input)) {
     return {
-      type: 'Boolean',
+      type: 'boolean',
       target: input
     };
   } else if (isRegExp(input)) {
     return {
-      type: 'RegExp',
+      type: 'regexp',
       target: input
     };
   } else if (isError(input)) {
     return {
-      type: 'Error',
+      type: 'error',
       target: input
     };
   } else if (isDate(input)) {
     return {
-      type: 'Date',
+      type: 'date',
       target: input
     };
   } else if (isSymbol(input)) {
     return {
-      type: 'Symbol',
+      type: 'symbol',
       target: input
     };
   }
