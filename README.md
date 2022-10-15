@@ -1,34 +1,26 @@
 # Tipe Apa
 
 [![NPM Version](https://badge.fury.io/js/tipe-apa.svg)](https://badge.fury.io/js/tipe-apa)
-[![Build Status](https://travis-ci.com/rafiandria23/tipe-apa.svg?branch=master)](https://travis-ci.com/rafiandria23/tipe-apa)
+[![Build Status](https://travis-ci.com/rafiandria23/tipe-apa.svg?branch=main)](https://travis-ci.com/rafiandria23/tipe-apa)
 [![Coverage Status](https://coveralls.io/repos/github/rafiandria23/tipe-apa/badge.svg)](https://coveralls.io/github/rafiandria23/tipe-apa)
-[![Install Size](https://packagephobia.now.sh/badge?p=tipe-apa)](https://packagephobia.now.sh/result?p=tipe-apa)
-[![NPM Downloads](https://img.shields.io/npm/dm/tipe-apa.svg?style=flat-square)](http://npm-stat.com/charts.html?package=tipe-apa)
-[![GitHub issues](https://img.shields.io/github/issues/rafiandria23/tipe-apa)](https://github.com/rafiandria23/tipe-apa/issues)
-[![GitHub forks](https://img.shields.io/github/forks/rafiandria23/tipe-apa)](https://github.com/rafiandria23/tipe-apa/network)
-[![GitHub stars](https://img.shields.io/github/stars/rafiandria23/tipe-apa)](https://github.com/rafiandria23/tipe-apa/stargazers)
-[![GitHub license](https://img.shields.io/github/license/rafiandria23/tipe-apa)](https://github.com/rafiandria23/tipe-apa/blob/master/LICENSE)
 
 Simple JavaScript data type checker.
 
-## Installation
+## Getting Started
 
-Using NPM:
+Using NPM
 
 ```sh
 npm install tipe-apa
 ```
 
-Using Yarn:
+Using Yarn
 
 ```sh
 yarn add tipe-apa
 ```
 
 ## Usage
-
-#### Checking Any or Random Data Type
 
 ```javascript
 // CommonJS
@@ -88,29 +80,19 @@ for (const key in checkTargets) {
 
 ## Tipe Apa API
 
-##### isString(input: any): boolean
-
-##### isNumber(input: any): boolean
-
-##### isArray(input: any): boolean
-
-##### isObject(input: any): boolean
-
-##### isFunction(input: any): boolean
-
-##### isNull(input: any): boolean
-
-##### isUndefined(input: any): boolean
-
-##### isBoolean(input: any): boolean
-
-##### isRegExp(input: any): boolean
-
-##### isError(input: any): boolean
-
-##### isDate(input: any): boolean
-
-##### isSymbol(input: any): boolean
+- `checkType(input: any): { type: string, target: any }`
+- `isString(input: any): boolean`
+- `isNumber(input: any): boolean`
+- `isArray(input: any): boolean`
+- `isObject(input: any): boolean`
+- `isFunction(input: any): boolean`
+- `isNull(input: any): boolean`
+- `isUndefined(input: any): boolean`
+- `isBoolean(input: any): boolean`
+- `javascript isRegExp(input: any): boolean`
+- `isError(input: any): boolean`
+- `isDate(input: any): boolean`
+- `isSymbol(input: any): boolean`
 
 ## License
 
