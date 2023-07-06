@@ -1,6 +1,10 @@
 dist: focal
 language: node_js
 
+addons:
+  sonarcloud:
+    organization: rafiandria23
+
 node_js:
   - lts/*
 
@@ -9,3 +13,4 @@ install:
 
 script:
   - yarn test
+  - sonar-scanner
