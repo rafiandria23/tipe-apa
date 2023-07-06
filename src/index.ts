@@ -7,7 +7,7 @@ export function isArray(input: any): input is Array<typeof input[number]> {
   );
 }
 
-export function isBoolean(input: any): input is Boolean {
+export function isBoolean(input: any): input is boolean {
   return typeof input === 'boolean';
 }
 
@@ -27,7 +27,7 @@ export function isNull(input: any): input is null {
   return input === null;
 }
 
-export function isNumber(input: any): input is Number {
+export function isNumber(input: any): input is number {
   return typeof input === 'number' || input instanceof Number;
 }
 
@@ -39,7 +39,7 @@ export function isRegExp(input: any): input is RegExp {
   return input && typeof input === 'object' && input.constructor === RegExp;
 }
 
-export function isString(input: any): input is String {
+export function isString(input: any): input is string {
   return typeof input === 'string' || input instanceof String;
 }
 
