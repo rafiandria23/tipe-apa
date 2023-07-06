@@ -3,6 +3,7 @@
 [![NPM Version](https://badge.fury.io/js/tipe-apa.svg)](https://badge.fury.io/js/tipe-apa)
 [![Build Status](https://travis-ci.com/rafiandria23/tipe-apa.svg?branch=main)](https://travis-ci.com/rafiandria23/tipe-apa)
 [![Coverage Status](https://coveralls.io/repos/github/rafiandria23/tipe-apa/badge.svg)](https://coveralls.io/github/rafiandria23/tipe-apa)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_tipe-apa&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=rafiandria23_tipe-apa)
 
 Simple JavaScript data type checker.
 
