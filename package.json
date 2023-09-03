@@ -28,7 +28,7 @@
     "tslib": "^2.4.0",
     "typescript": "^5.1.6",
     "uglify-js": "^3.17.3",
-    "yarn-audit-fix": "^9.3.12"
+    "yarn-audit-fix": "^10.0.0"
   },
   "files": [
     "./dist/index.js",
