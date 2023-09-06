@@ -2,14 +2,14 @@
   "name": "tipe-apa",
   "version": "0.4.6",
   "description": "Simple JavaScript data type checker.",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "exports": "./dist/index.js",
   "scripts": {
-    "dev": "NODE_ENV=development tsc -p ./tsconfig.json --watch",
-    "clean": "rm -rf ./dist",
-    "build": "yarn clean && tsc -p ./tsconfig.json && uglifyjs ./dist/index.js -c -m -o ./dist/index.js",
-    "test": "yarn clean && yarn build && jest --coverage && coveralls < ./coverage/lcov.info",
+    "dev": "NODE_ENV=development tsc -p tsconfig.json --watch",
+    "clean": "rm -rf dist",
+    "build": "yarn clean && tsc -p tsconfig.json && uglifyjs dist/index.js -c -m -o dist/index.js",
+    "test": "yarn clean && yarn build && jest --coverage && coveralls < coverage/lcov.info",
     "prepublish:patch": "yarn build && yarn version --patch",
     "prepublish:minor": "yarn build && yarn version --minor",
     "prepublish:major": "yarn build && yarn version --major",
@@ -31,7 +31,7 @@
     "yarn-audit-fix": "^10.0.0"
   },
   "files": [
-    "./dist/index.js",
-    "./dist/index.d.ts"
+    "dist/index.js",
+    "dist/index.d.ts"
   ]
 }
