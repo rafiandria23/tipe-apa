@@ -9,7 +9,7 @@ node_js:
   - lts/*
 
 install:
-  - yarn install
+  - yarn install --frozen-lockfile
 
 script:
   - yarn test
