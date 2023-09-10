@@ -9,7 +9,7 @@
     "dev": "NODE_ENV=development tsc -p tsconfig.json --watch",
     "clean": "rm -rf dist",
     "build": "yarn clean && tsc -p tsconfig.json && uglifyjs dist/index.js -c -m -o dist/index.js",
-    "test": "yarn clean && yarn build && jest --coverage && coveralls < coverage/lcov.info",
+    "test": "yarn clean && yarn build && jest",
     "prepublish:patch": "yarn build && yarn version --patch",
     "prepublish:minor": "yarn build && yarn version --minor",
     "prepublish:major": "yarn build && yarn version --major",
@@ -22,7 +22,6 @@
   "devDependencies": {
     "@types/jest": "^29.1.2",
     "@types/node": "^20.4.0",
-    "coveralls": "^3.1.1",
     "jest": "^29.6.0",
     "ts-jest": "^29.1.1",
     "tslib": "^2.4.0",

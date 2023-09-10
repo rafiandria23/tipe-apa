@@ -51,12 +51,24 @@ export function isUndefined(input: any): input is undefined {
   return typeof input === 'undefined';
 }
 
-export type CheckTypeOutput = {
-  type: string;
-  target: any;
+export type CheckTypeOutput<T> = {
+  type:
+    | 'string'
+    | 'number'
+    | 'array'
+    | 'object'
+    | 'function'
+    | 'null'
+    | 'undefined'
+    | 'boolean'
+    | 'regexp'
+    | 'error'
+    | 'date'
+    | 'symbol';
+  target: T;
 };
 
-export function checkType(input: any): CheckTypeOutput {
+export function checkType(input: any): CheckTypeOutput<typeof input> {
   if (isString(input)) {
     return {
       type: 'string',
