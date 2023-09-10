@@ -1,10 +1,10 @@
 # Tipe Apa
 
-[![Build Status](https://travis-ci.com/rafiandria23/tipe-apa.svg?branch=main)](https://travis-ci.com/rafiandria23/tipe-apa)
-![npm Version](https://img.shields.io/npm/v/tipe-apa)
-![npm Package Minimized gzipped Size (Select Exports)](https://img.shields.io/bundlejs/size/tipe-apa)
-![npm Downloads](https://img.shields.io/npm/dm/tipe-apa)
-![License](https://img.shields.io/npm/l/tipe-apa)
+[![Build Status](https://app.travis-ci.com/rafiandria23/tipe-apa.svg?branch=main)](https://app.travis-ci.com/rafiandria23/tipe-apa)
+[![npm Version](https://img.shields.io/npm/v/tipe-apa)](https://npmjs.com/package/tipe-apa)
+[![npm Package Minimized gzipped Size (Select Exports)](https://img.shields.io/bundlejs/size/tipe-apa)](https://npmjs.com/package/tipe-apa)
+[![npm Downloads](https://img.shields.io/npm/dm/tipe-apa)](https://npmjs.com/package/tipe-apa)
+[![License](https://img.shields.io/npm/l/tipe-apa)](LICENSE)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_tipe-apa&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=rafiandria23_tipe-apa)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_tipe-apa&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=rafiandria23_tipe-apa)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_tipe-apa&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=rafiandria23_tipe-apa)
