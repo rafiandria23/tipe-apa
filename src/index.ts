@@ -1,4 +1,4 @@
-export function isArray(input: any): input is Array<typeof input[number]> {
+export function isArray(input: any): input is Array<(typeof input)[number]> {
   return (
     input &&
     typeof input === 'object' &&
@@ -62,57 +62,79 @@ export function checkType(input: any): CheckTypeOutput {
       type: 'string',
       target: input,
     };
-  } else if (isNumber(input)) {
+  }
+
+  if (isNumber(input)) {
     return {
       type: 'number',
       target: input,
     };
-  } else if (isArray(input)) {
+  }
+
+  if (isArray(input)) {
     return {
       type: 'array',
       target: input,
     };
-  } else if (isObject(input)) {
+  }
+
+  if (isObject(input)) {
     return {
       type: 'object',
       target: input,
     };
-  } else if (isFunction(input)) {
+  }
+
+  if (isFunction(input)) {
     return {
       type: 'function',
       target: input,
     };
-  } else if (isNull(input)) {
+  }
+
+  if (isNull(input)) {
     return {
       type: 'null',
       target: input,
     };
-  } else if (isUndefined(input)) {
+  }
+
+  if (isUndefined(input)) {
     return {
       type: 'undefined',
       target: input,
     };
-  } else if (isBoolean(input)) {
+  }
+
+  if (isBoolean(input)) {
     return {
       type: 'boolean',
       target: input,
     };
-  } else if (isRegExp(input)) {
+  }
+
+  if (isRegExp(input)) {
     return {
       type: 'regexp',
       target: input,
     };
-  } else if (isError(input)) {
+  }
+
+  if (isError(input)) {
     return {
       type: 'error',
       target: input,
     };
-  } else if (isDate(input)) {
+  }
+
+  if (isDate(input)) {
     return {
       type: 'date',
       target: input,
     };
-  } else if (isSymbol(input)) {
+  }
+
+  if (isSymbol(input)) {
     return {
       type: 'symbol',
       target: input,
