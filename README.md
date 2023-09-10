@@ -1,15 +1,27 @@
 # Tipe Apa
 
-[![NPM Version](https://badge.fury.io/js/tipe-apa.svg)](https://badge.fury.io/js/tipe-apa)
 [![Build Status](https://travis-ci.com/rafiandria23/tipe-apa.svg?branch=main)](https://travis-ci.com/rafiandria23/tipe-apa)
-[![Coverage Status](https://coveralls.io/repos/github/rafiandria23/tipe-apa/badge.svg)](https://coveralls.io/github/rafiandria23/tipe-apa)
+![npm Version](https://img.shields.io/npm/v/tipe-apa)
+![npm Package Minimized gzipped Size (Select Exports)](https://img.shields.io/bundlejs/size/tipe-apa)
+![npm Downloads](https://img.shields.io/npm/dm/tipe-apa)
+![License](https://img.shields.io/npm/l/tipe-apa)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_tipe-apa&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=rafiandria23_tipe-apa)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_tipe-apa&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=rafiandria23_tipe-apa)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_tipe-apa&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=rafiandria23_tipe-apa)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_tipe-apa&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=rafiandria23_tipe-apa)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_tipe-apa&metric=coverage)](https://sonarcloud.io/summary/new_code?id=rafiandria23_tipe-apa)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_tipe-apa&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=rafiandria23_tipe-apa)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_tipe-apa&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=rafiandria23_tipe-apa)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_tipe-apa&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=rafiandria23_tipe-apa)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_tipe-apa&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=rafiandria23_tipe-apa)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_tipe-apa&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=rafiandria23_tipe-apa)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_tipe-apa&metric=bugs)](https://sonarcloud.io/summary/new_code?id=rafiandria23_tipe-apa)
 
 Simple JavaScript data type checker.
 
 ## Getting Started
 
-Using NPM
+Using npm
 
 ```sh
 npm install tipe-apa
@@ -82,6 +94,21 @@ for (const key in checkTargets) {
 ## Tipe Apa API
 
 - `checkType(input: any): { type: string, target: any }`
+  - `type`
+    - `string`
+    - `number`
+    - `array`
+    - `object`
+    - `function`
+    - `null`
+    - `undefined`
+    - `boolean`
+    - `regexp`
+    - `error`
+    - `date`
+    - `symbol`
+  - `target`
+    - `typeof input`
 - `isString(input: any): boolean`
 - `isNumber(input: any): boolean`
 - `isArray(input: any): boolean`
