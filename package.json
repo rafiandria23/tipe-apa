@@ -16,8 +16,7 @@
     "prepublish:patch": "yarn build && yarn version --patch",
     "prepublish:minor": "yarn build && yarn version --minor",
     "prepublish:major": "yarn build && yarn version --major",
-    "relink": "yarn unlink && tsc && yarn link",
-    "audit:fix": "yarn-audit-fix"
+    "relink": "yarn unlink && tsc && yarn link"
   },
   "repository": {
     "type": "git",
@@ -35,7 +34,7 @@
     "ts-jest": "^29.1.1",
     "tslib": "^2.4.0",
     "typescript": "^5.1.6",
-    "uglify-js": "^3.17.3",
-    "yarn-audit-fix": "^10.0.0"
-  }
+    "uglify-js": "^3.17.3"
+  },
+  "packageManager": "yarn@1.22.22+sha256.c17d3797fb9a9115bf375e31bfd30058cac6bc9c3b8807a3d8cb2094794b51ca"
 }
