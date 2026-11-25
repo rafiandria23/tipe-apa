@@ -823,9 +823,9 @@
     undici-types "~8.9.0"
 
 "@types/node@^26.0.0":
-  version "26.6.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-26.6.9.tgz#8544e8255bb9cbac39c0408e7a3b1d4eaa2948a0"
-  integrity sha512-MkLVXFazHKL5/3lkiYqaSti6Ohv0Vi6z2bPwUQAs/aXUuuY8go4hR3mz8Kvu0lBC2HH0Zn+ON2G9hTglqDD48A==
+  version "26.6.10"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-26.6.10.tgz#fddc9af08f561789c54e49bc6785177cf516c6a2"
+  integrity sha512-WJuPHoGB8WNQuTksNF7SOQpnH02PXeDYz4iueWbBT6/hTWnShY5F3T/hoJA3fY9+uYReDZ7pyTKKx83jQa7aGg==
   dependencies:
     undici-types "~8.9.0"
 
